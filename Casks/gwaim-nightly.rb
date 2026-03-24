@@ -3,7 +3,7 @@ cask "gwaim-nightly" do
   name "gwaim-nightly"
   desc "Git Worktree AI Manager (nightly) — a terminal dashboard for git worktrees and coding agents"
   homepage "https://github.com/mdelapenya/gwaim"
-  version "0.1.0-nightly-nightly-nightly"
+  version "0.1.0-nightly"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "gwaim-nightly" do
   on_macos do
     on_intel do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_nightly_darwin_amd64.tar.gz"
-      sha256 "855e8e02f418875834bf831a74adc3aa4657be1e9ac37aef2bcfdac62556aed8"
+      sha256 "8b0889066ebe98027ad395378d819b93cb47a103e9271629be583f5e390817fd"
     end
     on_arm do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_nightly_darwin_arm64.tar.gz"
-      sha256 "27c1342df5b2d66ee5d4ad3eca132bb8a9fba1c1969363d8e7d5c0a5f233e7f7"
+      sha256 "cb5a51cf08d5f6aa7f270b9eda5ac78257e1321dfbc85b8ad428a0772aac908d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_nightly_linux_amd64.tar.gz"
-      sha256 "dab1f3f36f33595ad02fea623af0f79ade6b10d2699869b37fe6c8a8eebd07c0"
+      sha256 "85c2229f2d11b39469d001540328df086c5999fc03f924a3a2fbf00a2a30b793"
     end
     on_arm do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_nightly_linux_arm64.tar.gz"
-      sha256 "d4c4344ffc1a072d927c62731fab8f97c4d23ac908a6d468377fd6927c1b8f81"
+      sha256 "a172cd0dc400decc1574fb6c4bb01d85eab511512b3d5325688aba342439a388"
     end
   end
 
