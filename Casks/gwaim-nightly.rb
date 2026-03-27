@@ -14,22 +14,22 @@ cask "gwaim-nightly" do
   on_macos do
     on_intel do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_#{version}_darwin_amd64.tar.gz"
-      sha256 "2735263b6bb888de943c6d8474c2064966c49657f2826689ef13b077326a576a"
+      sha256 "edf5137b7eafcc9259a6166a016338bf0960cac69baaf367ce2ed2dc999f7903"
     end
     on_arm do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_#{version}_darwin_arm64.tar.gz"
-      sha256 "a54ba23d001b1534809bb13b8076dfc175189a12011b5997f5a9d8001057cd61"
+      sha256 "8f28ca8b6b71a00290df6542432b528dd38c7d6255db2f4824801a01cab31acd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_#{version}_linux_amd64.tar.gz"
-      sha256 "4323978d465f3cb98cb3197e6831b066f1e8e4d9977e76b383add7ff50a825f9"
+      sha256 "150effa222bff4b1bbc265401548331592bb56ab83f49a1009c904a6de0caf42"
     end
     on_arm do
       url "https://github.com/mdelapenya/gwaim/releases/download/v#{version}/gwaim_#{version}_linux_arm64.tar.gz"
-      sha256 "e09450790b9ba062e3687df231e45f9d4d847580eb7031ed1825eb90c8917c6f"
+      sha256 "4fd20e7c131178390951b4fe6be812b758155409c4fe5ab9d00144f704c28bcd"
     end
   end
 
