@@ -5,22 +5,22 @@ cask "biomelab-nightly" do
   on_macos do
     on_intel do
       url "https://github.com/mdelapenya/biomelab/releases/download/v#{version}/biomelab_#{version}_darwin_amd64.tar.gz"
-      sha256 "e46390e843f223b48854a076cc41ee4d6b605c74d3d0b930a72253741da85cde"
+      sha256 "5c2a64bfde10070c3d76297229af5facc4075f08d851a7b82a3918f52167e0a8"
     end
     on_arm do
       url "https://github.com/mdelapenya/biomelab/releases/download/v#{version}/biomelab_#{version}_darwin_arm64.tar.gz"
-      sha256 "42d80559c5963983415945b78a5f0cfcc6ead91abd4d21b4c55eb2a5debd14f2"
+      sha256 "90c1e13138e46c03c392719d0f1806f88ec1da66d043e7cf74605aaa957f1a3a"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/mdelapenya/biomelab/releases/download/v#{version}/biomelab_#{version}_linux_amd64.tar.gz"
-      sha256 "687f5994375b7abe13dc73fb0a734d068d60e22dccb234776137f204ec2c1349"
+      sha256 "2aadd5d2ed0fa89d71559ff4f91d3b1832dcacbbfd2eb0b853a3659dc781c59b"
     end
     on_arm do
       url "https://github.com/mdelapenya/biomelab/releases/download/v#{version}/biomelab_#{version}_linux_arm64.tar.gz"
-      sha256 "36c7b811a4b45fe81cc076eec983173eac55db9fdf64ef293706f342dd063690"
+      sha256 "ea3067a0623b02c2a6f80b6dfbf34909be480f6cd0e3360c8e99dec1aa8d993e"
     end
   end
 
