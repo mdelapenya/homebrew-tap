@@ -1,8 +1,8 @@
 cask "biomelab-nightly" do
-  version "0.9.0-nightly"
-  sha256 "aca3c0a079214e1854f2c548816ee6806cc93666e51aecdf1d1fce4b23bb8e2d"
+  version "0.10.0-nightly"
+  sha256 "987cf598979f3cec711ff13325b4de97ce453365118057651f1f3a127423e590"
 
-  url "https://github.com/mdelapenya/biomelab/releases/download/v0.9.0-nightly/Biomelab-darwin-universal.zip"
+  url "https://github.com/mdelapenya/biomelab/releases/download/v0.10.0-nightly/Biomelab-darwin-universal.zip"
   name "Biomelab Nightly"
   desc "BiomeLab (nightly) — a desktop dashboard for git worktrees and coding agents"
   homepage "https://github.com/mdelapenya/biomelab"
