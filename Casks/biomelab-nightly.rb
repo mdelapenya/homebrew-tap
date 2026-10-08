@@ -1,6 +1,6 @@
 cask "biomelab-nightly" do
   version "0.10.0-nightly"
-  sha256 "f1a196b4a31a7d6804120992ce76743dd0c7b99f485fef0705325e6f960cf7b8"
+  sha256 "b9ab0136cf1a22111b79138c3f895a9e8f0eb21ba52d3a344e01fd00d26b6331"
 
   url "https://github.com/mdelapenya/biomelab/releases/download/v0.10.0-nightly/Biomelab-darwin-universal.zip"
   name "Biomelab Nightly"
